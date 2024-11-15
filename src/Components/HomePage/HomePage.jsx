@@ -4,6 +4,7 @@ import "./HomePage.css";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import particlesJS from "particles.js";
+import image from "../../Assets/yasmine-img-rond.png";
 
 const ParticleBackground = () => {
   useEffect(() => {
@@ -145,7 +146,7 @@ function Header() {
         {/* Image Section */}
         <div className="d-flex justify-content-center w-100 mb-4">
           <img
-            src="/Users/yasminezaatour/yasmine-portfolio/src/Assets/yasmine-img-rond.png"
+            src={image}
             className="img-fluid rounded-circle"
             style={{ width: "100%", maxWidth: "200px", height: "auto" }}
             alt="Yasmine's Image"
