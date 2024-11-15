@@ -72,10 +72,15 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-/* adding animation to home section image  */
-/*.home img{
-  animation: floatimg 4s ease-in-out infinite;
-}*/
+.social-icon {
+  color: #000000;
+}
+
+.social-icon:hover,
+.social-icon:active,
+.social-icon:focus {
+  color: #69b3a2 !important;
+}
 
 @keyframes floatimg {
   0% {
@@ -87,10 +92,4 @@
   100% {
     transform: translateX(0);
   }
-}
-/* Base color for the social icons */
-
-/* Change color on hover */
-.social-icon:active,.social-icon:focus,.social-icon:hover {
-  color: #69b3a2 !important;  /* Color when hovered */
 }

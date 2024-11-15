@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useEffect } from "react";
 import "./HomePage.css";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
@@ -193,17 +192,17 @@ function Header() {
           >
             <li className="list-inline-item mx-3">
               <a href="" className="social-icon">
-                <FaTwitter style={{ fontSize: "1.9rem", color: "#000000" }} />
+                <FaTwitter style={{ fontSize: "1.9rem" }} />
               </a>
             </li>
             <li className="list-inline-item mx-1">
               <a href="" className="social-icon">
-                <FaGithub style={{ fontSize: "1.9rem", color: "#000000" }} />
+                <FaGithub style={{ fontSize: "1.9rem" }} />
               </a>
             </li>
             <li className="list-inline-item mx-3">
               <a href="" className="social-icon">
-                <FaLinkedin style={{ fontSize: "1.9rem", color: "#000000" }} />
+                <FaLinkedin style={{ fontSize: "1.9rem" }} />
               </a>
             </li>
           </ul>
