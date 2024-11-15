@@ -125,7 +125,19 @@ const ParticleBackground = () => {
     });
   }, []); // Empty dependency array ensures it only runs once when the component mounts
 
-  return <div id="particles-js"></div>;
+  return (
+    <div
+      id="particles-js"
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        zIndex: 0,
+      }}
+    ></div>
+  );
 };
 
 function Header() {
