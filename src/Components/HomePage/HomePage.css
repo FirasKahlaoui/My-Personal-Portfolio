@@ -1,0 +1,96 @@
+.home {
+  background: linear-gradient(
+    33deg,
+    rgba(242, 242, 255, 1) 0%,
+    rgba(235, 249, 255, 1) 100%
+  );
+  padding: 30px 0px 10px 0px;
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*.home h2{
+  font-size: 3rem;
+  line-height: 4rem; }*/
+.col-md-4.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.small-text p {
+  font-size: 0.95rem;
+}
+.c-orange {
+  color: #05195f;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.home p {
+  width: fit-content;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.h-btn:hover {
+  background: #6f34fe;
+  color: #fff;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0b247c;
+  position: relative;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  top: 20px;
+  background-color: #6f34fe;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.link:hover {
+  color: #6f34fe;
+}
+.link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* adding animation to home section image  */
+/*.home img{
+  animation: floatimg 4s ease-in-out infinite;
+}*/
+
+@keyframes floatimg {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-24px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Base color for the social icons */
+
+/* Change color on hover */
+.social-icon:active,.social-icon:focus,.social-icon:hover {
+  color: #69b3a2 !important;  /* Color when hovered */
+}

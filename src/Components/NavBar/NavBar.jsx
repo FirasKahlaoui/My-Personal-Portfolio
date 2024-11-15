@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import './NavbarStyle.css';
 
 const Navbar = () => {
   return (
@@ -40,6 +41,11 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="portfolio" smooth={true} duration={500}>
                 Portfolio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to="portfolio" smooth={true} duration={500}>
+                Certifications
               </Link>
             </li>
             <li className="nav-item">
