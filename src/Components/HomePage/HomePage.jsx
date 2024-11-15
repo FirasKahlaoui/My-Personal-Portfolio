@@ -153,7 +153,7 @@ function Header() {
         {/* Image Section */}
         <div className="d-flex justify-content-center w-100 mb-4">
           <img
-            src="images/graduationchayma.jpg"
+            src="/Users/yasminezaatour/yasmine-portfolio/src/Assets/yasmine-img-rond.png"
             className="img-fluid rounded-circle"
             style={{ width: "100%", maxWidth: "200px", height: "auto" }}
             alt="Yasmine's Image"
